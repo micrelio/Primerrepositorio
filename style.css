@@ -72,20 +72,27 @@ transform: rotate(360deg);
 
 
 .dos{
+    padding: 20px;
+    background-color: cornflowerblue;
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .muestra{
     width: 200px;
+    padding: 10px;
+    margin: 10px;
     background-color: blue;
     border: 3px solid black;
-   display: flex;
-   flex-direction: column;
-   /* justify-content: center; */
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.muestra h1{
+background-color: blueviolet;
 }
 
 .muestra img{
