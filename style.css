@@ -46,7 +46,7 @@ nav img{
     border-radius: 50px;
 }
 .banner img{
-    height: 15%;
+    height: 30%;
     width: 100%;
 }
 /* section{ */
@@ -97,40 +97,72 @@ nav img{
     
 }
 
-.muestra h1{
+.muestra h2{
     color: black;
     text-shadow: 2px 2px 5px rgba(255,126,0,1);
 }
 
 
-
-
-
-
-
-/* .sdos{
+footer{
+    background-color: black;
     padding: 20px;
-    background-color: cornflowerblue;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
-.muestra{
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    background-color: blue;
-    border: 3px solid black;
+.altofooter{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.muestra h1{
-background-color: blueviolet;
+footer h3{
+    color: aliceblue;
+}
+footer p{
+    color: aliceblue;
 }
 
-.muestra img{
-width: 150px;
-} */
+.centrofooter{
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.centrofooter div{
+    width: 30%;
+    /* background-color: aqua; */
+    /* margin: 20px; */
+}
+.centro1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+.centro1 a{
+    font-size: 35px;
+    text-decoration: none;
+    /* color: gold; */
+}
+.centro1 ul{
+    list-style: none;
+}
+.centro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.centro2 img{
+    width: 50%;
+}
+.centro3{
+    padding: 30px;
+}
+
+.bajofooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
