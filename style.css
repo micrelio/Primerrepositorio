@@ -121,7 +121,8 @@ nav img{
 
 /* ------------------------------------------- */
 /* --------------footer----------------------- */
-footer{
+/*
+ footer{
     background-color: black;
     padding: 20px;
 }
@@ -180,11 +181,12 @@ align-items: flex-start;
     justify-content: space-between;
     align-items: center;
 }
+ */
 
 
 /*----------------------------------*/
 /*----------RESPONSIVE-------------*/
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
 	body {
 		background-color: rgb(255, 0, 106);
 	}
@@ -231,6 +233,6 @@ align-items: center;
     flex-direction: column;
 }
 
-} 
+}  */
 
 
