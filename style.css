@@ -202,12 +202,45 @@ align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-} */
+} 
  
 
 
 /*----------------------------------*/
 /*----------RESPONSIVE-------------*/
+
+
+@media screen and (max-width: 900px){
+.hamburguesa{
+    display: block;
+}
+.menu{
+    display: none;
+}
+.sdos{
+    flex-direction: column;
+}
+.muestra{
+    width: 90%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @media screen and (max-width: 900px) {
 	body {
 		background-color: rgb(255, 0, 106);
