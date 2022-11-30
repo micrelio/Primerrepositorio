@@ -122,16 +122,77 @@ nav img{
 /* ------------------------------------------- */
 /* --------------footer----------------------- */
 
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer h3{
+    color: wheat;
+}
+footer p{
+    color: aliceblue;
+}
+.altofooter{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.centrofooter{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .centrofooter div{
+    width: 30%;
+ }
 
+.centro1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
 
+.centro1 a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.centro1 li{
+    list-style: none;
+}
 
+.centro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.centro2 img{
+    width: 70%;
+}
 
-
-
-
-
+.centro3{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.centro3 a{
+    margin: 5px;
+}
+.bajofooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -203,11 +264,47 @@ align-items: flex-start;
     justify-content: space-between;
     align-items: center;
 } 
- 
+ */
 
 
 /*----------------------------------*/
 /*----------RESPONSIVE-------------*/
+
+@media screen and (max-width: 900px) {
+    footer{
+        /* background-color: red; */
+    }
+    .centrofooter{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.centrofooter div{
+    width: 90%;
+    margin-top: 25px;
+}
+.centro3{
+    justify-content: center;
+    
+}
+.bajofooter{
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 900px){
